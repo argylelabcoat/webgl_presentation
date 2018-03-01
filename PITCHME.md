@@ -84,7 +84,7 @@
  * But, yes, usually a mathematical vector (direction with magnitude)
  * Sometimes people use vectors to store related values
  
- X | Y | Z | (W)===1
+ `[x, y, z, w ===1]`
 
 ---
 
