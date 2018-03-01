@@ -24,6 +24,17 @@
 
 ---
 
+## What is WebVR?
+
+ * Already deprecated
+ * WebXR
+ * Basically... Render twice as much `<canvas/>` 
+ * And Render it twice (per eye)
+ * [A-Frame](https://aframe.io/)
+ * [ReactVR](https://facebook.github.io/react-vr/)
+
+---
+
 ## WebGL basics: GPU?
 
 * Composition
@@ -172,6 +183,11 @@ sin & cos & 0  & 0\\\
 0 & 0 & 0  & 1 \end{pmatrix}$$
 
 ---
-[tri-raster]: images/Voxelization_blog_fig_9.png
-[JS-Fiddle]: https://jsfiddle.net/argylelabcoat/xd70q5fr/16/
-[glMatrix]: http://glmatrix.net/
+
+### Final Links
+
+ * [Blender](https://www.blender.org/)
+ * [ThreeJS](https://github.com/mrdoob/three.js)
+ * [BabylonJS](https://www.babylonjs.com/)
+ * [SpectorJS](http://spector.babylonjs.com/)
+ * [Unity](https://unity3d.com/)
