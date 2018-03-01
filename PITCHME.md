@@ -103,11 +103,12 @@
 ### Matrix Composition
 
  Identity
-
- 1 | 0 | 0 | 0 
- 0 | 1 | 0 | 0
- 0 | 0 | 1 | 0
- 0 | 0 | 0 | 1
+ 
+$$\begin{pmatrix}
+1 &0 & 0 & 0\\\ 
+0 & 1 & 0  & 0\\\ 
+0 & 0 & 1  & 0\\\ 
+0 & 0 & 0  & 1 \end{pmatrix}$$
 
 --- 
 
@@ -115,10 +116,11 @@
 
  Scaling
 
- X | 0 | 0 | 0 
- 0 | Y | 0 | 0
- 0 | 0 | Z | 0
- 0 | 0 | 0 | 1
+$$\begin{pmatrix}
+x &0 & 0 & 0\\\ 
+0 & y & 0  & 0\\\ 
+0 & 0 & z  & 0\\\ 
+0 & 0 & 0  & 1 \end{pmatrix}$$
 
  --- 
 
@@ -126,10 +128,11 @@
 
  Translation
 
- 1 | 0 | 0 | X 
- 0 | 1 | 0 | Y
- 0 | 0 | 1 | Z
- 0 | 0 | 0 | 1
+$$\begin{pmatrix}
+1 &0 & 0 & x\\\ 
+0 & 1 & 0  & y\\\ 
+0 & 0 & 1  & z\\\ 
+0 & 0 & 0  & 1 \end{pmatrix}$$
 
  --- 
 
@@ -137,10 +140,11 @@
 
  Rotation X
 
- 1 | 0 | 0 | 0 
- 0 | cos | -sin | 0
- 0 | sin | cos | 0
- 0 | 0 | 0 | 1
+$$\begin{pmatrix}
+1 &0 & 0 & 0\\\ 
+0 & cos & -sin  & 0\\\ 
+0 & sin & cos  & 0\\\ 
+0 & 0 & 0  & 1 \end{pmatrix}$$
 
   --- 
 
@@ -148,10 +152,12 @@
 
  Rotation Y
 
- cos | 0 | sin | 0 
- 0 | 0 | 0 | 0
- -sin | 0 | cos | 0
- 0 | 0 | 0 | 1
+$$\begin{pmatrix}
+cos &0 & sin & 0\\\ 
+0 & 1 & 0  & 0\\\ 
+-sin & 0 & cos  & 0\\\ 
+0 & 0 & 0  & 1 \end{pmatrix}$$
+
 
    --- 
 
@@ -159,10 +165,11 @@
 
  Rotation Z
 
- cos | -sin | 0 | 0 
- sin | cos | 0 | 0
- 0 | 0 | 0 | 0
- 0 | 0 | 0 | 1
+$$\begin{pmatrix}
+cos & -sin & 0 & 0\\\ 
+sin & cos & 0  & 0\\\ 
+0 & 0 & 1  & 0\\\ 
+0 & 0 & 0  & 1 \end{pmatrix}$$
 
 ---
 [tri-raster]: images/Voxelization_blog_fig_9.png
