@@ -103,7 +103,7 @@
    * Order Matters!
    * transform = S * R * T
  * [glMatrix](http://glmatrix.net/) is helpful
-   * Typed out in Row Major
+   * Typed out in "Vector Major"
    * Documentation for Graphics often Column Major
  * Rotation from Euler Angles...
    * Bad! Gimbal-Lock
