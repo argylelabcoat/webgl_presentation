@@ -43,8 +43,7 @@
 * Triangles create shapes
 * Easy to rasterize
 * Rasterize: "Draw"
-![triangle rasterization][tri-raster]
-
+![triangle rasterization](images/Voxelization_blog_fig_9.png)
 ---
 
 ## WebGL basics: Polygon Soup
@@ -64,7 +63,7 @@
 ---
 
 ### FIDDLE
-[JS-Fiddle]
+[JS-Fiddle](https://jsfiddle.net/argylelabcoat/xd70q5fr/16/)
 
 ---
 
@@ -92,8 +91,7 @@
  * Matrix concatenation
    * Order Matters!
    * transform = S * R * T
- * glMatrix is helpful
-   * [glMatrix]
+ * [glMatrix](http://glmatrix.net/) is helpful
    * Typed out in Row Major
    * Documentation for Graphics often Column Major
  * Rotation from Euler Angles...
