@@ -74,7 +74,7 @@
 ---
 
 ### FIDDLE
-[JS-Fiddle](https://jsfiddle.net/argylelabcoat/xd70q5fr/16/)
+[JS-Fiddle](https://jsfiddle.net/argylelabcoat/xd70q5fr/)
 
 ---
 
