@@ -133,7 +133,7 @@ x &0 & 0 & 0\\\
 0 & 0 & z  & 0\\\ 
 0 & 0 & 0  & 1 \end{pmatrix}$$
 
- --- 
+--- 
 
 ### Matrix Composition
 
@@ -145,7 +145,7 @@ $$\begin{pmatrix}
 0 & 0 & 1  & z\\\ 
 0 & 0 & 0  & 1 \end{pmatrix}$$
 
- --- 
+--- 
 
 ### Matrix Composition
 
@@ -157,7 +157,7 @@ $$\begin{pmatrix}
 0 & sin & cos  & 0\\\ 
 0 & 0 & 0  & 1 \end{pmatrix}$$
 
-  --- 
+--- 
 
 ### Matrix Composition
 
