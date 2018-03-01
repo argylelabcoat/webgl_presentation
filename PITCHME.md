@@ -170,7 +170,7 @@ cos &0 & sin & 0\\\
 0 & 0 & 0  & 1 \end{pmatrix}$$
 
 
-   --- 
+--- 
 
 ### Matrix Composition
 
